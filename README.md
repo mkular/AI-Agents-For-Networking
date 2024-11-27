@@ -38,6 +38,7 @@ Where Client1 and Client2 are linux containers and Leaf1 and Leaf2 are IXR-D2L a
    pip install netmiko
 ```
 4. Enter the right api key for open ai and anthropic in the relevant code cells.
+5. Install the Debian 12 UTM VM mentioned in (for macos) : https://containerlab.dev/install/. This is the VM on which containers get deployed.
 6. Run all the cells in the notebook.
    
   [^1]: __**NOTE**__ : Be patient while running this code book it takes a little over 10 mins to complete. One challenge is that run times varies with every run and sometimes it can take even longer. Also claude-3-5-sonnet usage can get expensive real quick, so be careful :).
